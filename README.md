@@ -1,12 +1,12 @@
-# 9Pfrank
+# 9Frank
 
-A proposed semantic superset of the 9P family. 9Pfrank is the superset dialect; 9P2000, 9P2000.u, 9P2000.L, 9P2000.e, and 9P.original are supported behind separate codecs.
+A proposed semantic superset of the 9P family. 9Frank is the superset dialect; 9P2000, 9P2000.u, 9P2000.L, 9P2000.e, and 9P.original are supported behind separate codecs.
 
 **Status:** proposed design, revision 0.2. A design plan, not an existing standard.
 
 ## What it is
 
-9Pfrank preserves 9P's central model: attach to a namespace, obtain fids, walk names, read and write resources, and release references. It treats synthetic files and services as first-class resources. It adds one new dialect with explicit capability negotiation, while keeping legacy dialects behind separate codecs: each codec translates its dialect's wire protocol to 9Pfrank underneath. By default a 9Pfrank server accepts 9P2000, 9P2000.u, 9P2000.L, 9P2000.e, and 9P.original clients, but only over an authenticated tunnel or a local socket, never in plaintext on an exposed TCP port.
+9Frank preserves 9P's central model: attach to a namespace, obtain fids, walk names, read and write resources, and release references. It treats synthetic files and services as first-class resources. It adds one new dialect with explicit capability negotiation, while keeping legacy dialects behind separate codecs: each codec translates its dialect's wire protocol to 9Frank underneath. By default a 9Frank server accepts 9P2000, 9P2000.u, 9P2000.L, 9P2000.e, and 9P.original clients, but only over an authenticated tunnel or a local socket, never in plaintext on an exposed TCP port.
 
 Key properties:
 
@@ -29,7 +29,7 @@ Key properties:
 
 ## The plan
 
-The full design and implementation plan (wire layout, operations, compounds, recovery, caching, transport, and delivery phases) lives in [9Pfrank-plan.md](9Pfrank-plan.md).
+The full design and implementation plan (wire layout, operations, compounds, recovery, caching, transport, and delivery phases) lives in [9Frank-plan.md](9Frank-plan.md).
 
 ## License
 
