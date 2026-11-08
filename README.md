@@ -1,6 +1,6 @@
 # 9Frank
 
-[Index: All Projects](https://moebiusv.github.io/) | [github.com/moebiusV/9Frank](https://github.com/moebiusV/9Frank) | `git clone https://github.com/moebiusV/9Frank`
+Index: [All Projects](https://moebiusv.github.io/) | Git Repository: [github.com/moebiusV/9Frank](https://github.com/moebiusV/9Frank) | `git clone https://github.com/moebiusV/9Frank`
 
 A proposed semantic superset of the 9P family. 9Frank is the superset dialect; 9P2000, 9P2000.u, 9P2000.L, 9P2000.e, and 9P.original are supported behind separate codecs.
 
